@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration xmlns="http://schemas.genuitec.com/myeclipse/mobile"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.2"
+	xsi:schemaLocation="http://schemas.genuitec.com/myeclipse/mobile http://schemas.genuitec.com/myeclipse/mobile/buildconfig_0_2.xsd">
+	<configId>ba30fb729f524f118e31dd71de811c51</configId>
+	<appId>list.android</appId>
+	<appName>daily work</appName>
+	<packageName>myeclipse.list</packageName>
+	<outputFileName>schedule.apk</outputFileName>
+	<appVersion>1.0.0</appVersion>
+	<appLanguage />
+	<author email="wungkingaini@gmail.com" name="wungking" />
+	<supportedOrientation>ALL</supportedOrientation>
+	<platform>
+		<android>
+			<targetDisplaySizes>
+				<item>S</item>
+				<item>M</item>
+				<item>L</item>
+				<item>XL</item>
+			</targetDisplaySizes>
+			<permissions>
+				<item>NETWORK</item>
+			</permissions>
+		</android>
+	</platform>
+	<sourceFolders>
+		<item exclusionPatterns="" inclusionPatterns="www/" />
+	</sourceFolders>
+	<startupURI>index.html</startupURI>
+	<brandingImages>
+		<app-image image-path="apps/list.android/images/36.png"
+			image-size="36x36" image-type="ICON" />
+		<app-image image-path="apps/list.android/images/48.png"
+			image-size="48x48" image-type="ICON" />
+		<app-image image-path="apps/list.android/images/72.png"
+			image-size="72x72" image-type="ICON" />
+		<app-image image-path="apps/list.android/images/96.png"
+			image-size="96x96" image-type="ICON" />
+	</brandingImages>
+</configuration>
